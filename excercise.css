@@ -195,3 +195,33 @@ b {
     position: absolute;
     margin:auto
 }
+.contact {
+    width: 100%;
+    background: #191919;
+    height: 290px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact p {
+    color: cadetblue;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.button {
+    background-color: brown;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 15px;
+    border: 1px solid white;
+    border-radius: 30px;
+    transition: .3s;
+}
+.button:hover {
+    background-color: cadetblue;
+    border: 1px solid white;
+    cursor: pointer;
+}
