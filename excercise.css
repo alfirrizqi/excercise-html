@@ -104,7 +104,7 @@ b {
 .aboutMe {
     width: 100%;
     background: linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.7)),url(/pesawat1.jpg);
-    height: 100vh;
+    height: 110vh;
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -113,14 +113,14 @@ b {
 .aboutMe img {
     height: auto;
     width: 550px;
-    margin-top: 220px;   
+    margin-top: 350px;   
 }
 .aboutText {
-    width:500px;
-    margin-top: 220px;
+    width:550px;
+    margin-top: 350px;
 }
 .mainAbout {
-    width: 1150px;
+    width: 1300px;
     max-width: 95%;
     margin: 0 auto;
     display: flex;
@@ -147,4 +147,51 @@ b {
     margin-bottom: 45px;
     letter-spacing: 2px;
     line-height: normal;
+}
+.workExperience {
+    padding: 100px 0;
+    width: 100%;
+    background: linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.7)),url(/gambar3.jpg);
+    height: 110vh;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.title h4 {
+    color: cadetblue;
+    font-size: 45px;
+    width: 1150px;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 350px;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 550px;
+}
+.sub-title {
+    height: 300px;
+    width: 500px;
+    padding: 75px 55px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    text-align: left;
+    
+}
+.sub-title h5 {
+    text-align: left;
+    position: relative;
+    font-size: 20px;
+    color: brown;
+    margin-bottom: 25px;
+}
+.sub-box d {
+    color: whitesmoke;
+    font-size: 16px;
+    position: absolute;
+    margin:auto
 }
